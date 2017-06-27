@@ -10,6 +10,6 @@ sudo -u root ln -s /opt/spark-2.1.1-bin-hadoop2.7 /opt/spark
 export SPARK_HOME=/opt/spark
 echo "Created symbolic link"
 echo "export SPARK_HOME="$SPARK_HOME >> ~/.bash_profile
-echo "export PATH="$SPARK_HOME"/bin:"$PATH >> ~/.bash_profile
+echo "export PATH="$SPARK_HOME"/bin:\$PATH" >> ~/.bash_profile
 echo "Add path to ~/.bash_profile"
 pip install findspark
