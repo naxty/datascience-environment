@@ -28,3 +28,6 @@ conda install --y -c anaconda tensorflow-gpu=1.1.0
 
 # Keras
 conda install --y -c conda-forge keras=2.0.2
+
+# Gensim
+conda install --y -c anaconda gensim=2.2.0
