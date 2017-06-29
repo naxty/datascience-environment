@@ -35,6 +35,9 @@ conda install --y -c anaconda gensim=2.2.0
 # Sklearn 
 conda install --y scikit-learn
 
+# Matplotlib
+conda install --y -c conda-forge matplotlib=2.0.2
+
 # Excel Processing
 pip install openpyxl
 
