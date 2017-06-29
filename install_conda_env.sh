@@ -37,3 +37,5 @@ pip install openpyxl
 
 # NLTK
 pip install nltk
+# run nltk.download() to install different corporas
+
