@@ -32,6 +32,9 @@ conda install --y -c conda-forge keras=2.0.2
 # Gensim
 conda install --y -c anaconda gensim=2.2.0
 
+# Sklearn 
+conda install --y scikit-learn
+
 # Excel Processing
 pip install openpyxl
 
