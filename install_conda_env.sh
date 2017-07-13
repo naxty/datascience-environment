@@ -8,6 +8,8 @@ sudo -u root  ~/anaconda3.sh -b -p $ANACONDA_DIR
 rm -rf ~/anaconda3.sh
 echo "export PATH="$ANACONDA_DIR"/bin:\$PATH" >> ~/.bash_profile
 
+source ~/.bash_profile
+
 #Create new
 conda create -n datascience python=3.6 --y
 source activate datascience
